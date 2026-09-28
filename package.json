@@ -1,0 +1,20 @@
+{
+  "name": "pharmacy-comptoir",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fiche Comptoir — Nomenclature pharmaceutique nationale (Algérie), avec favoris, statut Chifa, ruptures de stock et notes, sur une vraie base SQLite (libSQL / Turso-compatible).",
+  "scripts": {
+    "seed": "node scripts/seed-db.mjs",
+    "predev": "node scripts/seed-db.mjs --if-missing",
+    "prebuild": "node scripts/seed-db.mjs --if-missing",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
