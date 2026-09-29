@@ -1,0 +1,8 @@
+{
+  "appId": "com.pharmacycomptoir.app",
+  "appName": "Pharmacy Comptoir",
+  "server": {
+    "url": "https://pharmacy-comptoir-git-main-tlemsani-a11ys-projects.vercel.app",
+    "cleartext": false
+  }
+}
